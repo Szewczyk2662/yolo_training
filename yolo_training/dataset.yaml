@@ -1,0 +1,5 @@
+train: C:\Users\przem\Desktop\tuto_dataset\train\images  # Ścieżka do obrazów treningowych
+val: C:\Users\przem\Desktop\tuto_dataset\val\images    # Ścieżka do obrazów walidacyjnych (możesz rozdzielić zbiory, ale na razie zostawmy w tym samym folderze)
+
+nc: 4  # Liczba klas (w tym przypadku 4)
+names: ['orange_cone', 'large_orange_cone', 'blue_cone', 'yellow_cone']  # Nazwy klas, zgodne z Twoimi danymi
